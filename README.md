@@ -9,7 +9,7 @@ The original version is written by David Koelle in Java language and is ported b
 
 # Requirements
 
-- C++ compiler which supports C++ 14 or later.
+- C++ compiler which supports C++ 11 or later.
 
 
 
@@ -18,7 +18,7 @@ The original version is written by David Koelle in Java language and is ported b
 It is a header only library. Copy [this file](natural_order_comparator.hpp) to any directory you like
 and add `#include` directive.
 
-It is designed as a comparator object like `std::less`. Specify this object to a template argument such as `std::set` and `std::sort()`.
+It is designed as a comparator object like `std::less`. Specify this object to a template argument of container or algorithms such as `std::set` and `std::sort()`.
 
 There are several aliases for convenience:
 
